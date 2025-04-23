@@ -1,6 +1,6 @@
 import React, { useEffect, useState } from 'react';
 import { View, Text, StyleSheet, TouchableOpacity } from 'react-native';
-import { getTasks } from '../api'; // Import your API functions
+import { getTasks } from './api/api'; // Import your API functions
 
 const TodoList = () => {
   const [tasks, setTasks] = useState([]);
