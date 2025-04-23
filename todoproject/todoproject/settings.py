@@ -53,7 +53,9 @@ MIDDLEWARE = [
     "django.middleware.clickjacking.XFrameOptionsMiddleware",
 ]
 
-CORS_ALLOW_ALL_ORIGINS = ["https://todoappmobile.onrender.com"]
+CORS_ALLOW_ALL_ORIGINS = True
+ALLOWED_HOSTS = ['todoappmobile.onrender.com']
+
 
 
 ROOT_URLCONF = "todoproject.urls"
